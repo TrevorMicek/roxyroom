@@ -3,10 +3,9 @@ import React from "react";
 const navigation = {
   main: [
     { name: "Home", href: "/" },
-    { name: "Portfolio", href: "/portfolio" },
-    { name: "Services", href: "/services" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "Blog", href: "/blog" },
+    { name: "About", href: "/about" },
+    { name: "Bands", href: "/bands" },
+
     { name: "Contact", href: "/contact" },
   ],
   social: [
@@ -51,9 +50,9 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-bg" style={{ gridColumn: "span 5" }}>
-      <div className="max-w-7xl mx-auto pt-8 px-4 overflow-hidden sm:px-6 lg:px-8 .5xl:w-[800px]">
+      <div className="max-w-7xl mx-auto pt-8 pb-10 px-4 overflow-hidden sm:px-6 lg:px-8 .5xl:w-[800px]">
         <nav
-          className="-mx-5 my-2 flex flex-col flex-wrap items-center justify-center"
+          className=" my-2 flex flex-col flex-wrap items-center justify-center"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
@@ -67,52 +66,7 @@ export default function Footer() {
             </div>
           ))}
         </nav>
-        <div className="mx-auto text-center border-t border-white/10 flex flex-col justify-center pt-4 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
-          <div className="mx-auto pb-5">
-            <div
-              class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-184504116874"
-              style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                width: "200px",
-                height: "50.399993896484375px",
-              }}
-              data-hubspot-wrapper-cta-id="184504116874"
-            >
-              <a
-                href="https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/redirect?encryptedPayload=AVxigLJHYvhfSNUnT3PAuFQHKRVJctZhoVQnpQzrn041c50GcKOoSmxgo87zigFjOdnu6z4f8xmQb03205GcQNxJX%2BNZxDWRkUruiZ5eyPWQyXdVVwsbdWR%2FbC25F%2BPwpW%2F0FesvqFnLtSuj3xiTkB8qglK09XPUdE3Cnbp9IJsEFsLjHBsXlgllmfZ4uIPJ&webInteractiveContentId=184504116874&portalId=47413956"
-                target="_blank"
-                rel="noopener"
-                crossorigin="anonymous"
-              >
-                <img
-                  alt="Schedule Zoom Meeting"
-                  loading="lazy"
-                  src="https://no-cache.hubspot.com/cta/default/47413956/interactive-184504116874.png"
-                  style={{ height: "100%", width: "100%", objectFit: "fill" }}
-                  onerror="this.style.display='none'"
-                />
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3 className="text-sm/6 font-semibold text-white">
-              Subscribe to our newsletter
-            </h3>
-            <p className="mt-2 text-sm/6 text-gray-300">
-              The latest news, articles, and resources, sent to your inbox
-              weekly.
-            </p>
-          </div>
-          <div className="relative w-full mx-auto overflow-hidden xs:w-3/4 sm:w-96">
-            <div
-              class="hs-form-frame"
-              data-region="na1"
-              data-form-id="3a921c68-20e8-493c-ba3b-3bf36871f2a9"
-              data-portal-id="47413956"
-            ></div>
-          </div>
-        </div>
+
         <div className="mt-8 flex justify-center space-x-6">
           {navigation.social.map((item) => (
             <a

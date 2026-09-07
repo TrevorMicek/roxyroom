@@ -4,7 +4,7 @@ const portfolio = [
   {
     name: "Yoo Doo Voo Doo",
     description:
-      "This health and beauty business has a beautiful website that allows them to sell collagen supplements all over the world.",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nato",
     desktop:
       "https://res.cloudinary.com/websites-by-trevor/image/upload/v1733602584/earthMonitor_ye5lra.png",
     link: "https://earthandelle.netlify.app/",
@@ -63,7 +63,7 @@ export default function Example() {
                   <a href={`${example.link}`}>{example.name}</a>
                 </p>
                 <p class=" mt-5 max-w-prose  text-xl text-gray-500  .5xl:mt-2 lg:w-[500px]">
-                  {example.description}
+                  {portfolio[0].description}
                 </p>
               </FadeIn>
               <FadeIn duration={0.75}>

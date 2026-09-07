@@ -7,10 +7,9 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Portfolio", href: "/portfolio" },
-  { name: "Services", href: "/services" },
+  { name: "About", href: "/about" },
+  { name: "Bands", href: "/bands" },
 
-  { name: "Pricing", href: "/pricing" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -128,7 +127,7 @@ export default function HeroComp() {
                       <div className="sm:col-span-2">
                         <div className="inline-flex rounded-md shadow">
                           <a
-                            href="/services"
+                            href="/about"
                             className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
                           >
                             Explore the Festival
