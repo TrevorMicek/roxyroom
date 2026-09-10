@@ -42,14 +42,14 @@ export default function Example() {
             </a>
           </h2>
         </div>
-        <div className="flex flex-col md:flex-row md:flex-wrap md:mb-10">
+        <div className="flex flex-col">
           {portfolio.map((example) => (
             <div
               key={example.name}
               className={` flex  flex-col mx-auto h-full -mb-6 w-screen md:w-1/2 `}
             >
               <div
-                className={`${example.name === "Community" ? "text-black" : "text-white"} text-center  w-full h-12 absolute z-10 text-5xl font-[340]`}
+                className={`${example.name === "Community" ? "text-black" : "text-white"} text-center  w-full md:w-1/2 h-12 absolute z-10 text-5xl font-[340]`}
               >
                 {example.name}
               </div>
