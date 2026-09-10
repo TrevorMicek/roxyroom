@@ -100,9 +100,10 @@ export default function FeatureSection() {
           <p
             className={`mt-4 relative z-10 max-w-2xl text-xl text-gray-600 .5xl:text-1.5xl`}
           >
-            Thank you for joining us at the 2nd Annual Yartistfest! Together, we
-            celebrated local creativity and raised vital funds to support Denver
-            Public Schools music and arts education.
+            YartistFest brings together local sound, culinary talent, and
+            community spirit for a cause that hits home. Every ticket, meal, and
+            memory created helps directly fund instruments, sheet music, and
+            vital resources for Denver public school music programs in need.
           </p>
         </div>
       </div>
