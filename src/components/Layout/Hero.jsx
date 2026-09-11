@@ -122,7 +122,8 @@ export default function HeroComp() {
                   </h1>
                   <p className="mt-3 text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl min-w-full ">
                     Great Music. Amazing Food. A Brighter Future for Denver
-                    Students.
+                    Students. YartistFest brings together local sound, culinary
+                    talent, and community spirit for a cause that hits home.
                   </p>
                   <FadeIn>
                     <div className="mt-10 sm:mt-12">
@@ -132,7 +133,7 @@ export default function HeroComp() {
                             href="/about"
                             className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
                           >
-                            Our Mission
+                            Learn More
                           </a>
                         </div>
                       </div>
