@@ -17,7 +17,7 @@ export default function HeroComp() {
   return (
     <div className="relative overflow-hidden ">
       <main>
-        <div className=" pt-5 pb-12 text-left bg-gradient-to-bl from-[#97278b] to-[#e70103] sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
+        <div className=" pt-5 pb-12 text-left bg-[#1A1A1A] sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
           <Popover
             as="header"
             className="relative z-10 border-solid border-indigo-200 border-b"
@@ -52,7 +52,7 @@ export default function HeroComp() {
                       <a
                         href={`${item.href}`}
                         key={item.name}
-                        className="text-base font-medium text-white hover:text-indigo-500"
+                        className="text-base font-medium text-[#C5A059] hover:text-indigo-500"
                       >
                         {item.name}
                       </a>
@@ -117,8 +117,8 @@ export default function HeroComp() {
             <div className=" ">
               <div className=" max-w-md px-2 sm:max-w-2xl sm:px-9  lg:px-0 lg:text-left lg:flex lg:items-center">
                 <div className="">
-                  <h1 className="mt-8 tiny:text-[1.9rem] xs:text-4xl text-3.5xl font-mont font-[425]  text-white sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
-                    Welcome to YartistFest
+                  <h1 className="mt-8 tiny:text-[1.9rem] xs:text-4xl text-3.5xl font-mont font-[425]  text-[#C5A059] sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
+                    The Roxy Room Music Company
                   </h1>
                   <p className="mt-3 text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl min-w-full ">
                     Great Music. Amazing Food. A Brighter Future for Denver
@@ -128,10 +128,10 @@ export default function HeroComp() {
                   <FadeIn>
                     <div className="mt-10 sm:mt-12">
                       <div className="sm:col-span-2">
-                        <div className="inline-flex rounded-md shadow">
+                        <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow">
                           <a
                             href="/about"
-                            className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                            className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-[#C5A059] bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
                           >
                             Learn More
                           </a>

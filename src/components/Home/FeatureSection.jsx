@@ -5,7 +5,6 @@ import {
   CreditCardIcon,
   BoltIcon,
 } from "@heroicons/react/24/outline";
-import Logo from "../../images/PC.jpg";
 import { FadeIn } from "../FadeIn";
 const benefits = [
   {
