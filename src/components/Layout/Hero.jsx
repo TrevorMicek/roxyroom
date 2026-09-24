@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-
+import Logo from "../../images/66073008_padded_logo(1).jpeg";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -28,15 +28,15 @@ export default function HeroComp() {
                 aria-label="Global"
               >
                 <div className="flex items-center flex-1 ">
-                  <div className="h-12 w-auto flex items-start justify-between w-full md:w-auto">
+                  <div className="h-14 w-auto flex items-start justify-between w-full md:w-auto">
                     <FadeIn x={-24}>
                       <a href="/" className="">
                         <span className="sr-only">Workflow</span>
                         <img
-                          src="https://res.cloudinary.com/websites-by-trevor/image/upload/v1788545365/yartistfest_vetfzs.png"
+                          src={Logo.src}
                           alt="artsy yartisfest logo"
                           height="50px"
-                          width="150px"
+                          width="60px"
                         />
                       </a>
                     </FadeIn>
@@ -121,9 +121,8 @@ export default function HeroComp() {
                     The Roxy Room Music Company
                   </h1>
                   <p className="mt-3 text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl min-w-full ">
-                    Great Music. Amazing Food. A Brighter Future for Denver
-                    Students. YartistFest brings together local sound, culinary
-                    talent, and community spirit for a cause that hits home.
+                    Empowering artists, producing authentic sounds, and shaping
+                    the future of independent music.
                   </p>
                   <FadeIn>
                     <div className="mt-10 sm:mt-12">
@@ -133,7 +132,7 @@ export default function HeroComp() {
                             href="/about"
                             className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-[#C5A059] bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
                           >
-                            Learn More
+                            Music Starts Here
                           </a>
                         </div>
                       </div>

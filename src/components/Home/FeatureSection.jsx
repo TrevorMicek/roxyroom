@@ -94,14 +94,16 @@ export default function FeatureSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-9 lg:px-8 .5xl:w-[800px]">
         <div className="">
           <p className="mt-2 relative z-10 max-w-3xl text-3xl font-mont font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
-            Where Local Art Meets Live Sounds.
+            Find Your Groove, Your Way.
           </p>
           <p
             className={`mt-4 relative z-10 max-w-2xl text-xl text-gray-600 .5xl:text-1.5xl`}
           >
-            Every ticket, meal, and memory created helps directly fund
-            instruments, sheet music, and vital resources for Denver public
-            school music programs in need.
+            Forget rigid drills and stuffy classrooms. Around here, we believe
+            learning music should feel like hanging out in your favorite record
+            store. Whether you are picking up a guitar for the first time or
+            figuring out a drum beat, we focus on real music, raw expression,
+            and the songs you actually love.
           </p>
         </div>
       </div>

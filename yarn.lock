@@ -3205,6 +3205,7 @@ __metadata:
     motion: "npm:13.1.0"
     postcss: "npm:^8"
     react: "npm:^18.0.0"
+    react-calendly: "npm:^4.4.0"
     react-dom: "npm:^18.0.0"
     react-router: "npm:^7.2.0"
     tailwindcss: "npm:^3.4.17"
@@ -6907,6 +6908,16 @@ __metadata:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
   checksum: 10c0/318163e07a62a9b6e5f097b7cd0f4520cbc0a9b1a6539ac069baab0d1fbf15128c70b637433ae185fed8826e25360aad5286ae55fd5abfde59c5b3f5e7b08830
+  languageName: node
+  linkType: hard
+
+"react-calendly@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "react-calendly@npm:4.4.0"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10c0/4eb34866f29ef1b268240cf12bb4a81e26fa2fd1a60adf367eac6b443bb683303f85227291db74e1fa103220ef31a87478dd918b306b38588e9b7ffc30ef3e8c
   languageName: node
   linkType: hard
 
