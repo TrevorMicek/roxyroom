@@ -4,7 +4,7 @@ import MainHeader from "./Hero";
 import SecondaryHeader from "./SecondaryHeader";
 
 const Header = (props) => {
-  const firstTitle = "Yartistfest";
+  const firstTitle = "Roxy Room";
   const secondaryTitles = [
     "Services",
     "Websites",
