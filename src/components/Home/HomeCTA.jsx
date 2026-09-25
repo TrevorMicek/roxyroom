@@ -14,7 +14,7 @@ export default function Example() {
       <div className="pt-4 max-w-7xl mx-auto py-12 px-4 sm:px-6 .5xl:py-24 .5xl:px-8 .5xl:flex .5xl:items-center .5xl:justify-between .5xl:w-[800px]">
         <FadeIn x={-24}>
           <h2 className="text-3xl font-mont font-medium tracking-tight text-gray-900 md:text-4xl .5xl:text-4xl">
-            <span className="block">Want to help local schools?</span>
+            <span className="block">Start your music journey</span>
           </h2>
         </FadeIn>
         <FadeIn
@@ -24,12 +24,12 @@ export default function Example() {
         >
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/portfolio"
-                className=" inline-flex items-center justify-center px-10 xs:px-24 py-3.5 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-bl from-[#97278b] to-[#e70103]  hover:bg-blue .5xl:text-lg .5xl:px-7"
+              <button
+                className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium rounded-md text-white bg-gold hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                onClick={() => setSchedule(true)}
               >
-                Donate Here
-              </a>
+                Click Here
+              </button>
             </div>
           </div>
         </FadeIn>

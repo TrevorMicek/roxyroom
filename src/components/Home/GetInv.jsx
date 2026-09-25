@@ -25,10 +25,10 @@ export default function Example() {
                 duration={0.75}
                 x={-24}
               >
-                <div className="mt-8 flex justify-evenly space-x-2 lg:mt-0 lg:flex-shrink-0">
+                <div className="mt-8  lg:mt-0 lg:flex-shrink-0">
                   <div className="mx-auto">
                     <button
-                      className=" inline-flex items-center justify-center px-12 py-4 border-2 border-[#C5A059] text-base font-medium rounded-md text-[#C5A059] bg-[#1A1A1A] hover:bg-blue .5xl:text-lg .5xl:px-7"
+                      className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium rounded-md text-gold bg-[#1A1A1A] hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
                       onClick={() => setSchedule(true)}
                     >
                       Schedule a free session

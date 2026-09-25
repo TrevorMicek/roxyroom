@@ -10,6 +10,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        gold: "#C5A059",
+
         default: "rgb(89 80 239)",
         bg: "rgb(10 20 30)",
         blue: "rgb(95 86 245)",
