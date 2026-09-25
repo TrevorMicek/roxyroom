@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+
+import { InlineWidget } from "react-calendly";
 import { FadeIn } from "../FadeIn";
 
 export default function Example() {
+  const [schedule, setSchedule] = useState(false);
   return (
     <div
       className="bg-indigo-50"
@@ -17,22 +20,26 @@ export default function Example() {
             <span className="block">Start your music journey</span>
           </h2>
         </FadeIn>
-        <FadeIn
-          viewport={{ once: true, margin: "0px 0px -50px" }}
-          duration={0.75}
-          x={-24}
-        >
-          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div className="inline-flex rounded-md shadow">
-              <button
-                className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium rounded-md text-white bg-gold hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
-                onClick={() => setSchedule(true)}
-              >
-                Click Here
-              </button>
+        {schedule ? (
+          <InlineWidget url="https://calendly.com/webdevtrevor/30min" />
+        ) : (
+          <FadeIn
+            viewport={{ once: true, margin: "0px 0px -50px" }}
+            duration={0.75}
+            x={-24}
+          >
+            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+              <div className="inline-flex rounded-md shadow">
+                <button
+                  className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium rounded-md text-white bg-gold hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                  onClick={() => setSchedule(true)}
+                >
+                  Click Here
+                </button>
+              </div>
             </div>
-          </div>
-        </FadeIn>
+          </FadeIn>
+        )}
       </div>
     </div>
   );
