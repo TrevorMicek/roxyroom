@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import band from "../images/roxyroom.jpg";
+import {
+  MusicalNoteIcon,
+  GlobeAltIcon,
+  AcademicCapIcon,
+} from "@heroicons/react/24/outline";
 import { FadeIn } from "./FadeIn";
 export default function Example() {
   const benefits = [
@@ -7,20 +12,20 @@ export default function Example() {
       name: "Empowering Learners:",
       description:
         "We break down barriers to music education by offering flexible, mobile lessons that bring high-quality instruction directly to you.",
-      icon: "CodeBracketIcon",
+      icon: AcademicCapIcon,
     },
     {
       name: "A World of Music:",
       description:
         "Our curriculum specializes in world music styles, expanding your musical horizons and deepening your global citizenship.",
-      icon: "ChartBarIcon",
+      icon: MusicalNoteIcon,
     },
 
     {
       name: "Fostering Connection:",
       description:
         "We do not just teach individuals; we build a vibrant collective of musicians, artists, and music lovers who support one another.",
-      icon: "BoltIcon",
+      icon: GlobeAltIcon,
     },
   ];
   return (
@@ -53,7 +58,7 @@ export default function Example() {
             <div key={benefit.name} className="relative">
               <FadeIn>
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gold text-white ">
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-gold to-[#e7d0af] text-white ">
                     <benefit.icon
                       className="h-6 w-6 .5xl:h-7 .5xl:w-7"
                       aria-hidden="true"

@@ -126,20 +126,6 @@ export default function HeroComp() {
                     Empowering artists, producing authentic sounds, and shaping
                     the future of independent music.
                   </p>
-                  <FadeIn>
-                    <div className="mt-10 sm:mt-12">
-                      <div className="sm:col-span-2">
-                        <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow">
-                          <a
-                            href="/about"
-                            className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
-                          >
-                            Music Starts Here
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </FadeIn>
                 </div>
                 <img
                   loading="lazy"
@@ -149,6 +135,20 @@ export default function HeroComp() {
                   height="50px"
                   alt="team working together at office"
                 />
+                <FadeIn>
+                  <div className="mt-10 sm:mt-12">
+                    <div className="sm:col-span-2">
+                      <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow">
+                        <a
+                          href="/about"
+                          className=" inline-flex items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                        >
+                          Music Starts Here
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </FadeIn>
               </div>
             </div>
           </div>
