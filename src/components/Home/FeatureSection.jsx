@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
+import Divider from "../Divider";
 import {
   CodeBracketIcon,
   ChartBarIcon,
   CreditCardIcon,
   BoltIcon,
 } from "@heroicons/react/24/outline";
+
+import Logo from "../../images/musicnote.png";
 import { FadeIn } from "../FadeIn";
 const benefits = [
   {
@@ -91,7 +94,7 @@ export default function FeatureSection() {
         gridRowEnd: "second",
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-9 lg:px-8 .5xl:w-[800px]">
+      <div className="max-w-7xl pb-10 mx-auto px-4 sm:px-9 lg:px-8 .5xl:w-[800px]">
         <div className="">
           <p className="mt-2 relative z-10 max-w-3xl text-3xl font-default font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
             Find Your Groove, Your Way.
@@ -105,6 +108,7 @@ export default function FeatureSection() {
           </p>
         </div>
       </div>
+      <Divider />
     </div>
   );
 }

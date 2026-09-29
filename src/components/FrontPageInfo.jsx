@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import Divider from "./Divider";
 import band from "../images/roxyroom.jpg";
+
 import {
   MusicalNoteIcon,
   GlobeAltIcon,
@@ -49,7 +51,7 @@ export default function Example() {
           />
         </div>
       </div>
-      <div className=" px-4 py-16">
+      <div className=" px-4 py-16 pb-20">
         <h2 className="mt-5 mb-6 text-base text-gold font-default font-semibold tracking-wide uppercase .5xl:text-lg">
           What We Do
         </h2>
@@ -80,6 +82,7 @@ export default function Example() {
           ))}
         </dl>
       </div>
+      <Divider />
     </div>
   );
 }
