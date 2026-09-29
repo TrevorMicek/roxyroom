@@ -93,7 +93,7 @@ export default function FeatureSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-9 lg:px-8 .5xl:w-[800px]">
         <div className="">
-          <p className="mt-2 relative z-10 max-w-3xl text-3xl font-mont font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
+          <p className="mt-2 relative z-10 max-w-3xl text-3xl font-default font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
             Find Your Groove, Your Way.
           </p>
           <p

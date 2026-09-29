@@ -50,7 +50,7 @@ export default function Example() {
         </div>
       </div>
       <div className=" px-4 my-16">
-        <h2 className="mt-5 mb-6 text-base text-gold font-mont font-semibold tracking-wide uppercase .5xl:text-lg">
+        <h2 className="mt-5 mb-6 text-base text-gold font-default font-semibold tracking-wide uppercase .5xl:text-lg">
           What We Do
         </h2>
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
@@ -65,7 +65,7 @@ export default function Example() {
                     />
                   </div>
 
-                  <p className="ml-16 text-lg leading-6 font-mont font-medium text-gray-900 .5xl:text-xl">
+                  <p className="ml-16 text-lg leading-6 font-default font-medium text-gray-900 .5xl:text-xl">
                     {benefit.name === "Monthly Cost" ? (
                       <span>&#216; </span>
                     ) : null}

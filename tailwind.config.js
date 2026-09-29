@@ -22,7 +22,7 @@ module.exports = {
       },
 
       fontFamily: {
-        mont: "Montserrat",
+        default: "Barlow Condensed",
       },
     },
     screens: {
