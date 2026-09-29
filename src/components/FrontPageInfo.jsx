@@ -51,7 +51,7 @@ export default function Example() {
       </div>
       <div className=" px-4 my-16">
         <h2 className="mt-5 mb-6 text-base text-gold font-mont font-semibold tracking-wide uppercase .5xl:text-lg">
-          Benefits
+          What We Do
         </h2>
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           {benefits.map((benefit) => (
