@@ -7,7 +7,7 @@ export default function Example() {
   const [schedule, setSchedule] = useState(false);
   return (
     <div
-      className="bg-indigo-50"
+      className="bg-cream"
       style={{
         gridColumn: "span 7",
         gridRowStart: "third",

@@ -30,7 +30,7 @@ export default function Example() {
   ];
   return (
     <div
-      className="relative bg-white pr-4"
+      className="relative bg-cream pr-4"
       style={{
         gridColumn: "span 7",
         gridRowStart: "second",
@@ -49,7 +49,7 @@ export default function Example() {
           />
         </div>
       </div>
-      <div className=" px-4 my-16">
+      <div className=" px-4 py-16">
         <h2 className="mt-5 mb-6 text-base text-gold font-default font-semibold tracking-wide uppercase .5xl:text-lg">
           What We Do
         </h2>

@@ -84,7 +84,7 @@ const features = [
 export default function FeatureSection() {
   return (
     <div
-      className="pb-10 pt-12 -mt-1  relative overflow-hidden bg-[rgb(243,247,255)]"
+      className="pb-10 pt-12 -mt-1  relative overflow-hidden bg-cream"
       style={{
         gridColumn: "span 7",
         gridRowStart: "first",

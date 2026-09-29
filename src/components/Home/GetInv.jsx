@@ -14,7 +14,7 @@ export default function Example() {
   const containerRef = useRef(null);
   return (
     <div
-      className="bg-indigo-50"
+      className="bg-cream"
       style={{
         gridColumn: "span 7",
         gridRowStart: "third",

@@ -122,7 +122,7 @@ export default function HeroComp() {
                   <h1 className="mt-8  xs:text-4xl text-3.5xl font-default text-4xl  text-gold sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
                     The Roxy Room Music Company
                   </h1>
-                  <p className="mt-3 font-default text-lg text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl min-w-full ">
+                  <p className="mt-3 font-default text-lg text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl w-80 ">
                     Empowering artists, producing authentic sounds, and shaping
                     the future of independent music.
                   </p>

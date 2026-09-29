@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         gold: "#C5A059",
-
+        cream: "rgb(255 251 247)",
         default: "rgb(89 80 239)",
         bg: "rgb(10 20 30)",
         blue: "rgb(95 86 245)",
