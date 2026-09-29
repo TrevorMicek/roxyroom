@@ -96,9 +96,7 @@ export default function FeatureSection() {
           <p className="mt-2 relative z-10 max-w-3xl text-3xl font-default font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
             Find Your Groove, Your Way.
           </p>
-          <p
-            className={`mt-4 relative z-10 max-w-2xl text-xl text-gray-600 .5xl:text-1.5xl`}
-          >
+          <p className="mt-4 relative z-10 max-w-2xl text-lg text-gray-600 .5xl:text-1.5xl">
             Forget rigid drills and stuffy classrooms. Around here, we believe
             learning music should feel like hanging out in your favorite record
             store. Whether you are picking up a guitar for the first time or

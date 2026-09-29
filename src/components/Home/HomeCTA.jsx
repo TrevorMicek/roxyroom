@@ -31,7 +31,7 @@ export default function Example() {
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <button
-                  className=" inline-flex items-center justify-center px-12 py-4 text-base font-medium rounded-md text-gray-700 bg-gradient-to-tr from-gold to-[#e7d0af] hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                  className="font-default inline-flex items-center justify-center px-10 py-3 text-lg font-medium rounded-md text-gray-700 bg-gradient-to-tr from-gold to-[#e7d0af] hover:bg-gray-800 hover:scale-[1.04] .5xl:text-lg .5xl:px-7"
                   onClick={() => setSchedule(true)}
                 >
                   About Me

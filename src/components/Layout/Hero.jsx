@@ -138,7 +138,7 @@ export default function HeroComp() {
                 <FadeIn>
                   <div className="mt-10 sm:mt-12">
                     <div className="sm:col-span-2">
-                      <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow">
+                      <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow  hover:scale-[1.03]">
                         <a
                           href="/about"
                           className=" inline-flex font-default items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"

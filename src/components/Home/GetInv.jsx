@@ -35,7 +35,7 @@ export default function Example() {
                 <div className="mx-auto">
                   <div ref={containerRef}>
                     <button
-                      className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium tracking-wide rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                      className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium tracking-wide rounded-md text-gold bg-gray-900 hover:bg-gray-800  hover:scale-[1.03] .5xl:text-lg .5xl:px-7"
                       onClick={() => setisOpen(true)}
                     >
                       schedule a free session
