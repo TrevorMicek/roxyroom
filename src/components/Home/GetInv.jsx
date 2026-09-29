@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { Suspense, useRef, useEffect, useState } from "react";
 import { InlineWidget } from "react-calendly";
 import { FadeIn } from "../FadeIn";
 
+const CalendlyModal = React.lazy(() =>
+  import("react-calendly").then((module) => ({ default: module.PopupModal })),
+);
 export default function Example() {
-  const [schedule, setSchedule] = useState(false);
+  const [shouldLoad, setShouldLoad] = useState(false);
+  const [isOpen, setisOpen] = useState(false);
+  useEffect(() => {
+    setShouldLoad(true);
+  }, []);
+  const containerRef = useRef(null);
   return (
     <div
       className="bg-indigo-50"
@@ -17,25 +25,35 @@ export default function Example() {
         <FadeIn x={-24}>
           <h2 className="text-3xl font-mont font-medium tracking-tight text-gray-900 md:text-4xl .5xl:text-4xl">
             <span className="block">Ready to rock?</span>
-            {schedule ? (
-              <InlineWidget url="https://calendly.com/webdevtrevor/30min" />
-            ) : (
-              <FadeIn
-                viewport={{ once: true, margin: "0px 0px -50px" }}
-                duration={0.75}
-                x={-24}
-              >
-                <div className="mt-8  lg:mt-0 lg:flex-shrink-0">
-                  <div className="mx-auto">
+
+            <FadeIn
+              viewport={{ once: true, margin: "0px 0px -50px" }}
+              duration={0.75}
+              x={-24}
+            >
+              <div className="mt-8  lg:mt-0 lg:flex-shrink-0">
+                <div className="mx-auto">
+                  <div ref={containerRef}>
                     <button
                       className=" inline-flex items-center justify-center px-12 py-4 border-2 border-gold text-base font-medium rounded-md text-gold bg-[#1A1A1A] hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
-                      onClick={() => setSchedule(true)}
+                      onClick={() => setisOpen(true)}
                     >
-                      Schedule a free session
+                      schedule a free session
                     </button>
                   </div>
                 </div>
-              </FadeIn>
+              </div>
+            </FadeIn>
+            {shouldLoad && (
+              <Suspense>
+                <CalendlyModal
+                  fallback={null}
+                  url="https://calendly.com/webdevtrevor/30min"
+                  onModalClose={() => setisOpen(false)}
+                  open={isOpen}
+                  rootElement={containerRef.current}
+                />
+              </Suspense>
             )}
           </h2>
         </FadeIn>

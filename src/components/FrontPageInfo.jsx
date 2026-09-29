@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import band from "../images/The Roxy Room 1.jpg";
+import band from "../images/roxyroom.jpg";
 import { FadeIn } from "./FadeIn";
 export default function Example() {
   const benefits = [

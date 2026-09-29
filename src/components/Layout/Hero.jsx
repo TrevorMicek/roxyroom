@@ -4,6 +4,8 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
+
+import band from "../../images/roxyroom.jpg";
 import Logo from "../../images/66073008_padded_logo(1).jpeg";
 const navigation = [
   { name: "Home", href: "/" },
@@ -116,7 +118,7 @@ export default function HeroComp() {
           <div className="relative mx-auto py-8 max-w-7xl lg:px-8 .5xl:w-[800px] .5xl:z-10">
             <div className=" ">
               <div className=" max-w-md px-2 sm:max-w-2xl sm:px-9  lg:px-0 lg:text-left lg:flex lg:items-center">
-                <div className="">
+                <div className="pb-10">
                   <h1 className="mt-8 tiny:text-[1.9rem] xs:text-4xl text-3.5xl font-mont font-[425]  text-gold sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
                     The Roxy Room Music Company
                   </h1>
@@ -139,6 +141,14 @@ export default function HeroComp() {
                     </div>
                   </FadeIn>
                 </div>
+                <img
+                  loading="lazy"
+                  className="relative z-10 h-80 w-full object-cover lg:absolute lg:h-full"
+                  src={band.src}
+                  width="100px"
+                  height="50px"
+                  alt="team working together at office"
+                />
               </div>
             </div>
           </div>
