@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
+import Logo from "../../images/66073008_padded_logo(1).jpeg";
 //[#c740ac]
 
 const navigation = [
@@ -23,68 +24,21 @@ export default function Header(props) {
   };
   const Title = () => {
     switch (props.title) {
-      case "Services":
-        return ["Personalized Services", "To Elevate Your Brand"];
-      case "Websites":
-        return ["Personalized Websites", "For Your Business"];
-      case "Google Ads":
-        return ["Ad Management", "helping you generate leads"];
-      case "Social Media":
-        return ["Social Media Marketing", ""];
-      case "Pricing":
-        return ["Pricing plans for", "businesses of all sizes"];
       case "About":
-        return ["Learn more about me", "and my small business"];
+        return ["Learn more about me", "and my music"];
       case "Contact":
-        return ["Contact", "NoCo Web Designs"];
-      case "Portfolio":
-        return ["A Collection of Our", " Web Design Solutions"];
-      case "Blog":
-        return ["No Developer?", "No Problem"];
-      case "Store":
-        return ["Custom", "Ecommerce Store"];
+        return ["Contact The Roxy", "Room Music Company"];
     }
   };
   return (
     <div
-      className="relative bg-gradient-to-t from-violet-600 to-purple-900  overflow-hidden "
+      className="relative bg-[#1A1A1A]"
       style={{
         gridColumn: "span 5",
         gridRowStart: "header",
         gridRowEnd: "main",
       }}
     >
-      {props.title === "Pricing" ? (
-        <div class="absolute -bottom-[1px] w-full overflow-hidden leading-3 rotate-180">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-              style={{ fill: "#5950ef" }}
-            ></path>
-          </svg>
-        </div>
-      ) : (
-        <div class="absolute -bottom-[1px] w-full overflow-hidden leading-3 rotate-180">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-              style={{ fill: "white" }}
-            ></path>
-          </svg>
-        </div>
-      )}
       <div className={`  relative  pb-16 sm:pb-24`}>
         <Popover as="header" className="">
           <div className=" pt-6">
@@ -97,10 +51,10 @@ export default function Header(props) {
                   <a href="/" className="">
                     <span className="sr-only">Workflow</span>
                     <img
-                      src="https://res.cloudinary.com/websites-by-trevor/image/upload/v1725229743/NocoLogo_g8cj54.png"
-                      alt="artsy noco web designs logo"
+                      src={Logo.src}
+                      alt="artsy yartisfest logo"
                       height="50px"
-                      width="250px"
+                      width="60px"
                     />
                   </a>
 
@@ -150,10 +104,10 @@ export default function Header(props) {
                   >
                     <span className="sr-only">Workflow</span>
                     <img
-                      src="https://res.cloudinary.com/websites-by-trevor/image/upload/v1725229743/NocoLogo_g8cj54.png"
-                      alt="artsy noco web designs logo"
+                      src={Logo.src}
+                      alt="artsy yartisfest logo"
                       height="50px"
-                      width="250px"
+                      width="60px"
                     />
                   </a>
 

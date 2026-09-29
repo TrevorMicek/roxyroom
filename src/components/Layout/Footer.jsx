@@ -80,7 +80,13 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-6 text-center text-base text-gray-400">
-          &copy; 2021-2025 NoCo Web Designs LLC. All rights reserved.
+          Web Design by{" "}
+          <a href="https://nocowebdesigns.com/" className="text-indigo-500">
+            NoCo Web Designs LLC
+          </a>
+        </p>
+        <p className="mt-6 text-center text-base text-gray-400">
+          &copy; 2024-2026 The Roxy Room Music Company. All rights reserved.
         </p>
       </div>
     </footer>
