@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Divider from "./Divider";
-import band from "../images/roxyroom.jpg";
+import band from "../images/The Roxy Room Panaorama.jpg";
 
 import {
   MusicalNoteIcon,
