@@ -19,7 +19,7 @@ export default function HeroComp() {
   return (
     <div className="relative overflow-hidden ">
       <main>
-        <div className=" pt-5 pb-12 text-left bg-[#1A1A1A] sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
+        <div className=" pb-12 text-left bg-[#1A1A1A] sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
           <Navbar />
           <div className="relative mx-auto py-8 max-w-7xl lg:px-8 .5xl:w-[800px] .5xl:z-10">
             <div className=" ">
