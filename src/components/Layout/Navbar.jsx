@@ -104,9 +104,9 @@ export default function Example() {
           <DisclosurePanel
             static
             as={motion.div}
-            initial={{ x: 1, y: 1, opacity: 1 }}
-            animate={{ x: 0, y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
             className="absolute bg-[#1A1A1A]  border border-gold w-screen h-80 z-30 sm:hidden"
           >
             <div className="space-y-1 px-2 pt-2 pb-12">
