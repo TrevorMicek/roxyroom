@@ -40,7 +40,7 @@ export default function Header(props) {
       }}
     >
       <div className={`  relative  pb-16 sm:pb-24`}>
-        <Navbar />
+        <Navbar title={props.title} />
 
         <main
           className={` ${

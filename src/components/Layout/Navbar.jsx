@@ -19,7 +19,7 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FadeIn } from "../FadeIn";
 import logo from "../../images/66073008_padded_logo(1).jpeg";
-export default function Example() {
+export default function Example(props) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Disclosure
@@ -115,7 +115,7 @@ export default function Example() {
               <DisclosureButton
                 as="a"
                 href="/"
-                className="flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50"
+                className={`${props.title === "Home" ? "flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50" : "flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"}`}
               >
                 <span>Home</span>{" "}
                 <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
@@ -124,7 +124,7 @@ export default function Example() {
               <DisclosureButton
                 as="a"
                 href="/about"
-                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                className={`${props.title === "About" ? "flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50" : "flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"}`}
               >
                 <span>About</span>{" "}
                 <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
@@ -133,7 +133,7 @@ export default function Example() {
               <DisclosureButton
                 as="a"
                 href="/contact"
-                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                className={`${props.title === "Lessons" ? "flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50" : "flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"}`}
               >
                 <span>Lessons</span>{" "}
                 <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
@@ -142,7 +142,7 @@ export default function Example() {
               <DisclosureButton
                 as="a"
                 href="/contact"
-                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                className={`${props.title === "Contact" ? "flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50" : "flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"}`}
               >
                 <span>Contact</span>{" "}
                 <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
