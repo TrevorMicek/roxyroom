@@ -8,7 +8,7 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/react";
-
+import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import {
   AnimatePresence,
   easeInOut,
@@ -115,28 +115,46 @@ export default function Example() {
               <DisclosureButton
                 as="a"
                 href="/"
-                className="block mb-3 rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50"
+                className="flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50"
               >
-                Home
+                <span>Home</span>{" "}
+                <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
               </DisclosureButton>
-              <div className="-mt-1 w-11/12 border-b mx-auto" />
+              <div className="-mt-2 w-11/12 pb-1 border-t border-gray-400 mx-auto" />
               <DisclosureButton
                 as="a"
                 href="/about"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
               >
-                About
+                <span>About</span>{" "}
+                <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
               </DisclosureButton>
-              <div className="-mt-1 w-11/12 border-b mx-auto" />
+              <div className="-mt-2 w-11/12 pb-1 border-t border-gray-400 mx-auto" />
               <DisclosureButton
                 as="a"
                 href="/contact"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
               >
-                Contact
+                <span>Lessons</span>{" "}
+                <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
               </DisclosureButton>
-              <div className="-mt-1 w-11/12 border-b mx-auto" />
+              <div className="-mt-2 w-11/12 pb-1 border-t border-gray-400 mx-auto" />
+              <DisclosureButton
+                as="a"
+                href="/contact"
+                className="flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+              >
+                <span>Contact</span>{" "}
+                <ChevronRightIcon className="h-6 w-6 .5xl:h-7 .5xl:w-7" />
+              </DisclosureButton>
+              <div className="-mt-2 w-11/12 pb-1 border-t border-gray-400 mx-auto" />
             </div>
+            <a
+              href="mailto:webdevtrevor@gmail.com"
+              className="text-gray-200 underline block text-center"
+            >
+              theroxyroom@gmail.com
+            </a>
           </DisclosurePanel>
         )}
       </AnimatePresence>
