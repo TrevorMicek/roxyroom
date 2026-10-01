@@ -106,6 +106,7 @@ export default function Example() {
             as={motion.div}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transition: { duration: 0.2 } }}
             transition={{ duration: 0.3 }}
             className="absolute bg-[#1A1A1A]  border border-gold w-screen h-80 z-30 sm:hidden"
           >
