@@ -23,8 +23,8 @@ export default function HeroComp() {
           <Navbar title="Home" />
           <div className="relative mx-auto py-8 max-w-7xl lg:px-8 .5xl:w-[800px] .5xl:z-10">
             <div className=" ">
-              <div className=" max-w-md px-2 sm:max-w-2xl sm:px-9  lg:px-0 lg:text-left lg:flex lg:items-center">
-                <div className="pb-10">
+              <div className=" max-w-md px-2 sm:max-w-2xl sm:px-9  lg:px-0 lg:text-left lg:flex lg:items-start lg:flex-row lg:space-x-24">
+                <div className="pb-10 lg:mt-12">
                   <h1 className="mt-8  xs:text-4xl text-3.5xl font-default text-4xl  text-gold sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
                     The Roxy Room Music Company
                   </h1>
@@ -34,28 +34,27 @@ export default function HeroComp() {
                   </p>
                 </div>
                 <img
-                  loading="lazy"
-                  className="relative z-10 h-80 w-full object-cover lg:absolute lg:h-full"
+                  className="relative z-10 h-80 w-full object-cover lg:h-96 lg:mt-24 lg:min-w-80"
                   src={band.src}
                   width="100px"
                   height="50px"
                   alt="team working together at office"
                 />
-                <FadeIn>
-                  <div className="mt-10 sm:mt-12">
-                    <div className="sm:col-span-2">
-                      <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow  hover:scale-[1.03]">
-                        <a
-                          href="/about"
-                          className=" inline-flex font-default items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
-                        >
-                          Music Starts Here
-                        </a>
-                      </div>
+              </div>
+              <FadeIn>
+                <div className="mt-10 sm:mt-12 lg:-mt-28">
+                  <div className="sm:col-span-2">
+                    <div className="inline-flex rounded-md border-[#C5A059] border-2 shadow  hover:scale-[1.03]">
+                      <a
+                        href="/about"
+                        className=" inline-flex font-default items-center justify-center px-20 tiny:px-16  xs:px-24 py-3 border border-transparent text-base font-medium rounded-md text-gold bg-gray-900 hover:bg-gray-800 .5xl:text-lg .5xl:px-7"
+                      >
+                        Music Starts Here
+                      </a>
                     </div>
                   </div>
-                </FadeIn>
-              </div>
+                </div>
+              </FadeIn>
             </div>
           </div>
         </div>

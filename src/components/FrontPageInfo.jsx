@@ -39,11 +39,11 @@ export default function Example() {
         gridRowEnd: "third",
       }}
     >
-      <div className="pt-5 lg:absolute lg:inset-0 ">
-        <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+      <div className="pt-5 lg:abse lg:inset-0 ">
+        <div className="">
           <img
             loading="lazy"
-            className="h-56 w-full object-cover lg:absolute lg:h-full"
+            className="h-56 w-full object-cover "
             src={band.src}
             width="100px"
             height="50px"
