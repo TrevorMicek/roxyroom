@@ -132,7 +132,7 @@ export default function Example(props) {
               <div className="-mt-2 w-11/12 pb-1 border-t border-gray-400 mx-auto" />
               <DisclosureButton
                 as="a"
-                href="/contact"
+                href="/lessons"
                 className={`${props.title === "Lessons" ? "flex flex-row justify-between block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white dark:bg-gray-950/50" : "flex flex-row justify-between block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white"}`}
               >
                 <span>Lessons</span>{" "}

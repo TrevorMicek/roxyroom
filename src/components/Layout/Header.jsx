@@ -11,6 +11,7 @@ const Header = (props) => {
     "Pricing",
     "Google Ads",
     "Social Media",
+    "Lessons",
     "About",
     "Blog",
     "Portfolio",

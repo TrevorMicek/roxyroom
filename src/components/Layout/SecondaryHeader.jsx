@@ -26,6 +26,8 @@ export default function Header(props) {
     switch (props.title) {
       case "About":
         return ["Learn more about me", "and my music"];
+      case "Lessons":
+        return ["Drum Lessons", ""];
       case "Contact":
         return ["Contact The Roxy", "Room Music Company"];
     }
