@@ -29,15 +29,18 @@ export default function Example(props) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <div className="shrink-0">
-              <a href="/">
-                <img
-                  alt="Your Company"
-                  src={logo.src}
-                  className="h-10 w-auto cursor-pointer"
-                />
-              </a>
-            </div>
+            <FadeIn x={-5}>
+              {" "}
+              <div className="shrink-0">
+                <a href="/">
+                  <img
+                    alt="Your Company"
+                    src={logo.src}
+                    className="h-10 w-auto cursor-pointer"
+                  />
+                </a>
+              </div>
+            </FadeIn>
             <div className="hidden sm:ml- sm:block">
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 dark:bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" */}

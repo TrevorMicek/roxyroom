@@ -60,7 +60,7 @@ export default function Example() {
             <div key={benefit.name} className="relative">
               <FadeIn>
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-gold to-[#e7d0af] text-white ">
+                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-tr from-gold to-[#FFECA0] text-white ">
                     <benefit.icon
                       className="h-6 w-6 .5xl:h-7 .5xl:w-7"
                       aria-hidden="true"

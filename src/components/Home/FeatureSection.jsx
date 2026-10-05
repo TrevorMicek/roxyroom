@@ -96,16 +96,18 @@ export default function FeatureSection() {
     >
       <div className="max-w-7xl pb-10 mx-auto px-4 sm:px-9 lg:px-8 .5xl:w-[800px]">
         <div className="">
-          <p className="mt-2 relative z-10 max-w-3xl text-3xl font-default font-[425] tracking-tight text-gray-900 .5xl:text-4xl">
+          <h2 className="mt-2 relative z-10 max-w-3xl text-3.5xl font-default font-[400] leading-tight tracking-tight text-gray-900 .5xl:text-4xl">
             Find Your Groove, Your Way.
-          </p>
-          <p className="mt-4 relative z-10 max-w-2xl text-lg text-gray-600 .5xl:text-1.5xl">
-            Forget rigid drills and stuffy classrooms. Around here, we believe
-            learning music should feel like hanging out in your favorite record
-            store. Whether you are picking up a guitar for the first time or
-            figuring out a drum beat, we focus on real music, raw expression,
-            and the songs you actually love.
-          </p>
+          </h2>
+          <FadeIn y={24}>
+            <p className="mt-4 relative z-10 max-w-2xl text-lg text-gray-600 .5xl:text-1.5xl">
+              Forget rigid drills and stuffy classrooms. Around here, we believe
+              learning music should feel like hanging out in your favorite
+              record store. Whether you are picking up a guitar for the first
+              time or figuring out a drum beat, we focus on real music, raw
+              expression, and the songs you actually love.
+            </p>
+          </FadeIn>
         </div>
       </div>
       <Divider />

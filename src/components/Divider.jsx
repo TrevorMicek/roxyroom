@@ -4,8 +4,8 @@ import Logo from "../images/musicnote.png";
 
 export default function FeatureSection() {
   return (
-    <div className="lg:pt-32">
-      <div class="flex flex-row absolute bottom-2 left-1/2 -translate-x-1/2 w-full max-w-5xl px-8 md:px-16 overflow-visible">
+    <div className="py-12 lg:pt-32">
+      <div class="flex flex-row absolute  left-1/2 -translate-x-1/2 w-full max-w-5xl px-8 md:px-16 overflow-visible">
         <svg
           class="w-full h-[40px] md:h-[120px] overflow-visible"
           xmlns="http://w3.org"
