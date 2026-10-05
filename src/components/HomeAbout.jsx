@@ -21,13 +21,18 @@ export default function Example() {
             Scott & His Music
           </h2>
         </FadeIn>
-
         <p className="mt-4 relative z-10 max-w-2xl text-lg text-gray-600 .5xl:text-1.5xl">
-          Forget rigid drills and stuffy classrooms. Around here, we believe
-          learning music should feel like hanging out in your favorite record
-          store. Whether you are picking up a guitar for the first time or
-          figuring out a drum beat, we focus on real music, raw expression, and
-          the songs you actually love.
+          Scott is the driving force behind The Roxy Room Music Company,
+          bringing a deeply authentic, community-first approach to music
+          education. Ditching rigid, stuffy classroom drills for a vibe that
+          feels more like hanging out in your favorite local record store, he
+          focuses on real music, raw expression, and the songs you actually
+          love.
+        </p>
+        <p className="mt-4 relative z-10 max-w-2xl text-lg text-gray-500 .5xl:text-1.5xl">
+          With a passion for expanding musical horizons, Scott specializes in
+          world music styles and deep-dive musicianship, helping students
+          connect with global sounds while building their own creative voice.
         </p>
         <FadeIn
           viewport={{ once: true, margin: "0px 0px -50px" }}
