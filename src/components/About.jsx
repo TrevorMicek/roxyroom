@@ -6,6 +6,7 @@ import {
   BoltIcon,
 } from "@heroicons/react/24/outline";
 
+import band from "../images/roxyroom.jpg";
 import { FadeIn } from "./FadeIn";
 const benefits = [
   {
@@ -80,16 +81,26 @@ const features = [
 */
 export default function FeatureSection() {
   return (
-    <div className="overflow-hidden text-white bg-neutral-800 py-24 sm:py-32">
+    <div className="overflow-hidden text-white bg-dark py-24 sm:py-32">
       <div className=".5xl:flex .5xl:flex-row-reverse .5xl:justify-between mx-auto max-w-7xl px-6 .5xl:px-8 .5xl:w-[800px]">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 .5xl:w-1/2 .5xl:pl-7 .5xl:border-l-2 .5xl:border-white">
           <div className=".5xl:pr-8 .5xl:pt-4">
             <h2 className="text-orange mt-2 text-center relative z-10 max-w-3xl text-3xl leading-8 font tracking-tight  .5xl:text-4xl .5xl:text-left">
               Hello
             </h2>
+
             <h2 className=" mt-2 text-center relative z-10 max-w-3xl text-3xl leading-8 font tracking-tight  .5xl:text-4xl .5xl:text-left">
               Lorem ipsum dolor sit amet, consecte
             </h2>
+            <div className="mx-auto flex justify-center  mt-6 .5xl:w-full ">
+              <img
+                alt="two people doing therapy"
+                src={band.src}
+                width="300px"
+                height="300px"
+                className=" aspect-[3/4] size-half border-8 border-white object-fit .5xl:block"
+              />
+            </div>
             <FadeIn>
               <h2 className="text-lightblue mt-10 relative z-10 max-w-3xl text-1.5xl leading-8 font tracking-tight  .5xl:text-3xl .5xl:text-left">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

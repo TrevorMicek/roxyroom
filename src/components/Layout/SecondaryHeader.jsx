@@ -5,6 +5,8 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Navbar from "./Navbar";
 import Logo from "../../images/66073008_padded_logo(1).jpeg";
+
+import band from "../../images/roxyroom.jpg";
 //[#c740ac]
 
 const navigation = [
@@ -34,29 +36,28 @@ export default function Header(props) {
   };
   return (
     <div
-      className="relative bg-[#1A1A1A]"
+      className="relative bg-dark"
       style={{
         gridColumn: "span 5",
         gridRowStart: "header",
         gridRowEnd: "main",
       }}
     >
-      <div className={`  relative  pb-16 sm:pb-24`}>
-        <Navbar title={props.title} />
+      <div className="relative border-b-[1px] border-gold  pb-16 sm:pb-24">
+        <Navbar title={props.title} border={false} />
 
         <main
-          className={` ${
-            isOpen ? "mb-44" : "mb-2"
-          } relative  mt-5 h-24  flex justify-center items-center mx-auto max-w-7xl  sm:mt-24`}
+          className="
+          relative py-6   flex justify-center items-center mx-auto max-w-7xl  sm:mt-24"
         >
-          <div className="text-center absolute">
+          <div className="text-center ">
             <h1 className="text-3xl xs:text-4xl font-mont tracking-tight text-white sm:text-5xl lg:text-6xl">
               <FadeIn
                 viewport={{ once: true, margin: "0px 0px -100px" }}
                 duration={0.5}
                 x={-20}
               >
-                <span className="relative top-6 xl:inline">
+                <span className="relative bg-[linear-gradient(to_right,theme(colors.gold),#FFECA0,theme(colors.gold))] bg-clip-text text-transparent top-6 xl:inline">
                   {props.title ? Title()[0] : ""}
                 </span>
               </FadeIn>{" "}
@@ -66,7 +67,7 @@ export default function Header(props) {
                 duration={0.5}
                 x={20}
               >
-                <span className={`relative -top-2  xl:inline`}>
+                <span className="relative text-cream -top-2  xl:inline">
                   {props.title ? Title()[1] : ""}
                 </span>
               </FadeIn>

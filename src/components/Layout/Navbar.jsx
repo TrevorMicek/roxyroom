@@ -24,7 +24,7 @@ export default function Example(props) {
   return (
     <Disclosure
       as="nav"
-      className="relative py-1 bg-[#1A1A1A] border-b-2 border-gold dark:bg-gray-800/50 dark:after:pointer-events-none dark:after:absolute dark:after:inset-x-0 dark:after:bottom-0 dark:after:h-px dark:after:bg-white/10"
+      className={`${props.border ? "border-b-2 border-gold" : ""} relative py-1 bg-[#1A1A1A] dark:bg-gray-800/50 dark:after:pointer-events-none dark:after:absolute dark:after:inset-x-0 dark:after:bottom-0 dark:after:h-px dark:after:bg-white/10`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">

@@ -19,13 +19,13 @@ export default function HeroComp() {
   return (
     <div className="relative overflow-hidden ">
       <main>
-        <div className=" pb-12 text-left bg-[#1A1A1A] sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
-          <Navbar title="Home" />
+        <div className=" pb-12 text-left bg-dark sm:pt-16  .5xl:py-20 md:pb-52 .5xl:pb-52 ">
+          <Navbar title="Home" border={true} />
           <div className="relative mx-auto py-8 max-w-7xl lg:px-8 .5xl:w-[800px] .5xl:z-10">
             <div className=" ">
               <div className=" max-w-md px-2 sm:max-w-2xl sm:px-9  lg:px-0 lg:text-left lg:flex lg:items-start lg:flex-row lg:space-x-24">
                 <div className="pb-10 lg:mt-12">
-                  <h1 className="mt-8  xs:text-4xl text-3.5xl font-default text-4xl  text-gold sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
+                  <h1 className="mt-8  xs:text-4xl text-3.5xl font-default text-4xl bg-[linear-gradient(to_right,theme(colors.gold),#FFECA0,theme(colors.gold))] bg-clip-text text-transparent sm:mt-5 sm:text-5xl .5xl:text-5.5xl .5xl:py-1 lg:mt-6 xl:text-6xl">
                     The Roxy Room Music Company
                   </h1>
                   <p className="mt-3 font-default text-lg text-gray-300 sm:mt-5 sm:text-xl .5xl:pt-4 .5xl:-mb-4 .5xl:text-1.5xl xl:text-xl w-80 ">

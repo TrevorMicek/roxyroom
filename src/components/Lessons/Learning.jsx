@@ -9,7 +9,7 @@ import {
 import { FadeIn } from "../FadeIn";
 const features = [
   {
-    name: "Push to deploy",
+    name: "Lorem ipsum do",
     description: "Commodo nec sagittis tortor mauris sed. ",
     descriptionTwo:
       "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
@@ -17,7 +17,7 @@ const features = [
     icon: MusicalNoteIcon,
   },
   {
-    name: "SSL certificates",
+    name: "Lorem ipsum do",
     description: "Commodo nec sagittis tortor mauris sed. ",
     descriptionTwo:
       "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
@@ -25,7 +25,7 @@ const features = [
     icon: MusicalNoteIcon,
   },
   {
-    name: "Simple queues",
+    name: "Lorem ipsum do",
     description: "Commodo nec sagittis tortor mauris sed. ",
     descriptionTwo:
       "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
@@ -33,7 +33,7 @@ const features = [
     icon: MusicalNoteIcon,
   },
   {
-    name: "Simple queues",
+    name: "Lorem ipsum do",
     description: "Commodo nec sagittis tortor mauris sed. ",
     descriptionTwo:
       "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
@@ -41,7 +41,7 @@ const features = [
     icon: MusicalNoteIcon,
   },
   {
-    name: "Simple queues",
+    name: "Lorem ipsum do",
     description: "Commodo nec sagittis tortor mauris sed. ",
     descriptionTwo:
       "Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.",
@@ -58,7 +58,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 text-3xl tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance dark:text-white">
-            Everything you need to deploy your app
+            Lorem ipsum dolor sit amet, consectetu
           </p>
           <p className="mt-6 text-lg/8 text-gray-600 dark:text-gray-300">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
